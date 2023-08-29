@@ -1,0 +1,100 @@
+/* Random js css */
+body{
+    background: conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
+}
+.random{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    /* margin-left: 200px; */
+    float: right;
+    margin-right: 200px;
+}
+.container{
+    border: 2px solid black;
+    width: 600px;
+    background: conic-gradient(from -135deg at -10% center, #ffa500, #ff7715, #ff522a, #ff3f47, #ff5482, #ff69b4)   ;
+    border-radius: 10px;
+    box-shadow: rgba(244, 242, 242, 0.35) 0px 5px 15px;
+
+}
+h2{
+    /* background-color: rgb(63, 31, 93); */
+    color: whitesmoke;
+    margin: 12px 150px;
+    padding: 5px 0px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 8px 65px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(63, 31, 93);
+    color:whitesmoke;
+    transition: 0.6s all;
+}
+
+
+/* Tags js css */
+
+.tag{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px; */
+    /* flex-direction: column; */
+    /* margin-bottom: 20px; */
+    /* margin: 30px; */
+    margin-left: 100px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    font-size: 20px;
+    width: 230px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+    text-transform: capitalize;
+}
+input::placeholder{
+  text-align: center;
+  
+}
+
+
+
+
+/*  */
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+   margin-left: 250px;
+    padding: 6.7px;
+    background: conic-gradient(from 135deg at top,#474bff 90deg, #0000 0) 0 calc(50% - 4.5px)/19px 9.5px,
+           radial-gradient(farthest-side at bottom left,#0000 calc(100% - 6.7px),#474bff calc(100% - 5.6px) 99%,#0000) top right/50%  50% content-box content-box,
+           radial-gradient(farthest-side at top,#0000 calc(100% - 6.7px),#474bff calc(100% - 5.6px) 99%,#0000) bottom   /100% 50% content-box content-box;
+    background-repeat: no-repeat;
+    animation: spinner-v8og74 1s infinite linear;
+ }
+ 
+ @keyframes spinner-v8og74 {
+    100% {
+       transform: rotate(1turn);
+    }
+ }
